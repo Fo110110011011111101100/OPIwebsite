@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #f0f0f0; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 1em;
+}
+.maininf, header, footer{
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    color: #f4f4f4;
+}
+.maininf{
+    background-color: #080417;
+    height: 80vh;
+    padding: 0em 2em;
+    margin: 9vh 0 0 0;
+}
+.maininf h1{
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0;
+}
+
+header{
+    background-color: #03000c;
+    padding: 0.5em;
+    margin: 0;
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    margin-top: -9vh;
+    z-index: 2;
+    border: 1px solid #f4f4f4;
+    border-style:  none none solid none;
+}
+
+footer{
+    background-color: #03000c;
+    padding: 0.5em;
+    margin: 0;
+    height: 15vh;
+    border: 1px solid #f4f4f4;
+    border-style: solid none none none;
+}
+@font-face {
+    font-family: 'comfortaa';
+    src: url(font/Comfortaa.svg) format(svg);
+}  
+@font-face {
+    font-family: 'comfortaa';
+    src: url(font/Comfortaa.ttf) format(ttf);
+}  
+@font-face {
+    font-family: 'comfortaa';
+    src: url(font/Comfortaa.woff) format(woff);
+} 
+*{
+    font-family: 'comfortaa';
+}
+img, a{
+    display: inline;
+}
+.logo{
+    display: inline;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width:7vh;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.menu-logo{
+    width: 50px;
+    font-size: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.menu{
+    display: block;
+    width: 20%;
+    height: 80vh;
+    z-index: 1;
+    position: absolute;
+    background-color: #050310;
+    box-shadow: 0px 0px 0px 0px white;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    overflow: hidden;
+}
+.menu li{
+    display: block;
+    margin: 0;
+    padding: 30px 10px 30px 10px;;
+    border: 1px solid #f4f4f4;
+    border-style: solid none solid none;
+}
+.menu li:hover{
+    background-color: #090222;
+}
+.menu li a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 1em;
+}
+.class{
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+}
+.class img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.git li{
+    list-style: none;
+    background-image: url(img/git.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left center;
+    padding-left: 25px;   
+}
