@@ -57,15 +57,15 @@ footer{
 }
 @font-face {
     font-family: 'comfortaa';
-    src: url(font/Comfortaa.svg) format(svg);
+    src: url(Comfortaa.svg) format(svg);
 }  
 @font-face {
     font-family: 'comfortaa';
-    src: url(font/Comfortaa.ttf) format(ttf);
+    src: url(Comfortaa.ttf) format(ttf);
 }  
 @font-face {
     font-family: 'comfortaa';
-    src: url(font/Comfortaa.woff) format(woff);
+    src: url(Comfortaa.woff) format(woff);
 } 
 *{
     font-family: 'comfortaa';
@@ -127,7 +127,7 @@ img, a{
 }
 .git li{
     list-style: none;
-    background-image: url(img/git.png);
+    background-image: url(git.png);
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: left center;
