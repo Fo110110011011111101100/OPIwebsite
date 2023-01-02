@@ -1,9 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    /* background-color: #f0f0f0; */
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 1em;
+    background-color: #080417;
+
 }
 .maininf, header, footer{
     /* width: 100%; */
@@ -14,7 +14,9 @@ body{
 }
 .maininf{
     background-color: #080417;
-    height: 80vh;
+    /* height: 80vh; */
+    max-height: 500vh;
+    min-height: 74vh;
     padding: 0em 2em;
     margin: 9vh 0 0 0;
 }
