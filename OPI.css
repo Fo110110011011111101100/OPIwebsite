@@ -39,10 +39,18 @@ header{
     border-style:  none none solid none;
 }
 
+header h1{
+    padding: 0.5em;
+    display: inline;
+    margin-left: 26%;
+}
+
 footer{
     background-color: #03000c;
+    position: relative;
     padding: 0.5em;
     margin: 0;
+    z-index: 1;
     height: 15vh;
     border: 1px solid #f4f4f4;
     border-style: solid none none none;
@@ -65,31 +73,19 @@ footer{
 img, a{
     display: inline;
 }
-.logo{
-    display: inline;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-.logo img{
-    width:7vh;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
 .menu-logo{
     width: 50px;
     font-size: 50px;
     height: 50px;
     margin-left: 10px;
+    display: inline;
 }
 .menu{
     display: block;
     width: 20%;
-    height: 80vh;
-    z-index: 1;
-    position: absolute;
+    height: 100%;
+    z-index: 0;
+    position: fixed;
     background-color: #050310;
     box-shadow: 0px 0px 0px 0px white;
 }
