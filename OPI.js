@@ -8,37 +8,43 @@ const header = document.getElementsByClassName("header")[0];
 
 const main = document.getElementsByClassName("maininf")[0];
 
-boll=false;
+boll = false;
 popupMenu.style.display = "none";
 
 logoMenu.onclick = function(e) {
     popupMenu.style.display = "block";
-    if(!boll){
+    if (!boll) {
         popupMenu.style.left = '-20%';
-        boll=true;
+        boll = true;
         var i = 0;
         var id = setInterval(frame, 10);
+        let tmp = 5;
+
         function frame() {
-            if (i == 20) {
+            if (i >= 20) {
                 clearInterval(id);
             } else {
-                i += 0.5;
+
+                i += 0.2 * tmp;
+                tmp-=0.1;
                 popupMenu.style.left = -20 + i + '%';
             }
         }
-    }
-    
-    else {
-        boll=false;
+    } else {
+        boll = false;
         popupMenu.style.display = "block";
-        popupMenu.style.left = '-20px';
+        //popupMenu.style.left = '-20px';
         var i = 0;
+        tmp = 1;
         var id = setInterval(frame, 10);
+        
+
         function frame() {
-            if (i == -20) {
+            if (i <= -20) {
                 clearInterval(id);
             } else {
-                i -= 0.5;
+                i -= 0.2 * tmp;
+                tmp+=0.1;
                 popupMenu.style.left = i + '%';
             }
         }
